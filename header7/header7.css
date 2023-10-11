@@ -1,0 +1,43 @@
+.main-container{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    height: 100%;
+}
+
+.image{
+    background-image: url('Photo.png');
+    background-size: 100% 100%;
+}
+
+.navbar{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding: 30px;
+    margin-top: 25px;
+}
+
+.navbar_header{
+    font-size: 25px;
+}
+.navbar_header a{
+    text-decoration: none;
+    color: indigo;
+}
+#menu{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px; 
+    padding-right: 130px;
+}
+
+#menu li{
+    list-style-type: none;
+}
+
+#menu li a:hover{
+    color: red;
+}
+#menu li a{
+    text-decoration: none;
+    color: gray;
+}

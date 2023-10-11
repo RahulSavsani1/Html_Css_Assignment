@@ -1,0 +1,152 @@
+body{
+    background-color: blue;
+}
+
+.navbar{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 30% 70%;
+    align-items: center;
+}
+
+.navbar_header{
+    font-size: 25px;
+}
+.navbar_header a{
+    color: white;
+    text-decoration: none;
+}
+#menu{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px; 
+    padding-right: 250px;
+    align-items: center;
+    padding-left: 200px;
+}
+
+#menu li{
+    list-style-type: none;
+}
+
+#menu li a:hover{
+    color: gray;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn{
+    padding: 5px 20px;
+    font-size: 25px;
+    border-radius: 30px;
+    border: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 30px 200px 0; 
+}
+.content{
+    font-size: 70px;
+    color: white;
+    padding-right: 80px;
+}
+.content p{
+    text-align: start;
+    font-size: 20px;
+    padding: 5px 190px 0 0;
+    color: white;
+}
+.content button{
+    padding: 15px 50px;
+    font-size: 25px;
+    border-radius: 30px;
+    border: none;
+    background-color:skyblue;
+    color: white;
+    margin-bottom: 30px;
+}
+.content .btn{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 150px;
+}
+
+.signup_container{
+    background-color: white;
+    height: 550px;
+    width: 500px;
+    padding: 10px ;
+    text-align: center;
+}
+
+.signup_container h1{
+    color: indigo;
+    font-size: 40px;
+    
+}
+
+.signup_container .info{
+    font-size: 23px;
+    border-radius: 30px;
+    border: 2px solid gray;
+    padding: 5px 14px;
+    background-color: white;
+    width: 300px;
+    margin-bottom: 20px;
+    color: gray;
+}
+
+.signup_container .check{
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.signup_container .signup{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 5px 125px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.signup_container .or{
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: gray;
+}
+
+.signup_container .login{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 5px 87px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.signup_container p{
+    font-size: 20px;
+    color: gray;
+}
+
+.signup_container p a{
+    color: skyblue;
+    text-decoration: none;
+}

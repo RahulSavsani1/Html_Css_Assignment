@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header1</title>
+    <link rel="stylesheet" href="header3.css">
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            padding: 30px 200px; 
+        }
+        .content h1{
+            font-size: 45px;
+            color: indigo;
+        }
+        .content p{
+            text-align: start;
+            font-size: 20px;
+            color: gray;
+            padding-left: 25px;
+        }
+        .content button{
+            padding: 15px 50px;
+            font-size: 25px;
+            border-radius: 30px;
+            border: none;
+            background-color:skyblue;
+            color: white;
+        }
+        .content .btn{
+            background-color: transparent;
+            color: indigo;
+            border: none;
+            border-radius: 30px;
+        }
+        #btn{
+            padding: 5px 20px;
+            font-size: 25px;
+            border-radius: 30px;
+            border: none;
+            background-color: skyblue;
+            color: white;
+        }
+        .content .butn{
+            padding: 10px 170px;
+        }
+        .container input{
+            font-size: 23px;
+            border-radius: 30px;
+            border: 2px solid gray;
+            padding: 10px 120px 10px 15px;
+            background-color: transparent;
+            color: gray;
+            margin-bottom: 10px;
+        }
+        .image{
+            padding: 50px 10px 50px 140px;
+        }
+        .image p{
+            text-align: start;
+            font-size: 20px;
+            color: gray;
+            padding-right: 80px;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="navbar">
+        <div class="navbar_header">
+            <h1> <a href="header3.html"> Startup 3 </a> </h1>
+        </div>
+        <div>
+            <ul id="menu">
+                <li> <a href="header3.html"> Products </a> </li>
+                <li> <a href="header3.html"> Pricing </a> </li>
+                <li> <a href="header3.html"> Community </a> </li>
+            </ul>
+        </div>
+        <div>
+            <button> API </button>
+            <button> Help </button>
+            <button> Login </button>
+            <button id="btn"> Sign Up </button>
+        </div>
+    </section>
+    <section class="container">
+        <div class="content">
+            <h1> A high-quality solution for those who want a beautiful startup website quickly  </h1>
+            
+            <input type="email" placeholder="Your Email"/>
+            <input type="password" placeholder="Your password"/> <br/>
+        
+            <button class="butn"> Sign In </button> 
+            <p>
+                By signing up, you agree to terms of services
+            </p>
+        </div>
+        <div class="image">
+            <img src="Mask.png" class="mainimg"/>
+            <p>
+                We made it so beautiful and simple. It combines landings, pages, blogs and shop screens. It is definitely the tool you need in your collection.
+            </p>
+        </div>
+        
+    </section>
+</body>
+
+</html>

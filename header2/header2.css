@@ -1,0 +1,49 @@
+.main_container{
+    background: blue;
+}
+.navbar{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 30% 30% 40%;
+    align-items: center;
+}
+
+.navbar_header{
+    font-size: 25px;
+    color: white;
+}
+.navbar_header a{
+    text-decoration: none;
+    color: white;
+}
+
+#menu{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px; 
+    padding: 0px 100px;
+}
+
+#menu li{
+    list-style-type: none;
+}
+
+#menu li a:hover{
+    color: red;
+}
+#menu li a{
+    text-decoration: none;
+    color: white;
+}
+
+button{
+    padding: 5px 20px;
+    font-size: 23px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+}
+
+#signup{
+    background-color: cornflowerblue;
+}

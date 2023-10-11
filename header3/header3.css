@@ -1,0 +1,43 @@
+.navbar{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 20% 40% 40%;
+    align-items: center;
+}
+
+.navbar_header{
+    font-size: 25px;
+}
+.navbar_header a{
+    color: indigo;
+    text-decoration: none;
+}
+
+#menu{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px; 
+    padding-right: 200px;
+}
+
+#menu li{
+    list-style-type: none;
+
+}
+
+#menu li a:hover{
+    color: red;
+}
+#menu li a{
+    text-decoration: none;
+    color: gray;
+}
+
+button{
+    padding: 5px 20px;
+    font-size: 25px;
+    border-radius: 30px;
+    border: none;
+    color: gray;
+    background-color: white;
+}
